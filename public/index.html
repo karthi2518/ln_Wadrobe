@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>LN Wardrobe – T-Shirt Collection</title>
+<meta name="description" content="LN Wardrobe – browse our t-shirt collection and order on WhatsApp.">
+<meta property="og:title" content="LN Wardrobe – T-Shirt Collection">
+<meta property="og:description" content="Pick your colour & size, order on WhatsApp.">
+<meta property="og:image" content="/logo.png">
+<meta name="theme-color" content="#B7A3E0">
+<link rel="icon" href="/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Jost:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="announce" id="announce" hidden></div>
+<header class="site-header"><div class="in">
+  <a class="brand" href="/"><img src="/logo.png" alt="LN Wardrobe logo"><div><b>LN WARDROBE</b><small>EST 2026</small></div></a>
+  <a class="btn btn-ghost btn-sm" href="#shop">Shop</a>
+</div></header>
+
+<section class="hero"><div class="in">
+  <div>
+    <div class="qslides" id="qslides" aria-live="polite">
+      <div class="q on"><h1>Wear your<br><span>story.</span></h1><p>Fresh t-shirts in every colour &amp; size. Pick yours, tap once, order on WhatsApp.</p></div>
+      <div class="q"><h1>Simple tee.<br><span>Loud confidence.</span></h1><p>The easiest outfit you'll ever own – and the one everyone asks about.</p></div>
+      <div class="q"><h1>Good vibes<br>look better in<br><span>lavender.</span></h1><p>Pick the colour that matches your mood today.</p></div>
+      <div class="q"><h1>Dress for the<br>life you're<br><span>building.</span></h1><p>Start with a t-shirt that feels as good as your plans.</p></div>
+      <div class="q"><h1>Comfort is<br>the new<br><span>luxury.</span></h1><p>Soft fabric, easy fit, all-day style.</p></div>
+      <div class="q"><h1>Your t-shirt.<br><span>Your signature.</span></h1><p>Stand out without saying a word.</p></div>
+      <div class="q"><h1>Be you.<br>Be bold.<br><span>Be LN.</span></h1><p>New styles added all the time – check back often.</p></div>
+    </div>
+    <div class="qdots" id="qdots"></div>
+    <a class="btn btn-primary" href="#shop">View collection</a>
+  </div>
+  <img class="logo" src="/logo.png" alt="LN Wardrobe">
+</div></section>
+
+<section class="steps"><div class="in">
+  <div class="step"><i>1</i><b>Choose</b><span>Pick a t-shirt, colour &amp; size</span></div>
+  <div class="step"><i>2</i><b>Tap WhatsApp</b><span>Your choice is filled in for you</span></div>
+  <div class="step"><i>3</i><b>Confirm</b><span>We confirm &amp; arrange delivery</span></div>
+</div></section>
+
+<main class="wrap" id="shop">
+  <div class="sec-title">Collection</div>
+  <div class="toolbar" id="cats"></div>
+  <div class="toolbar">
+    <input class="search" id="q" placeholder="Search t-shirts…">
+    <select class="search" id="sort" aria-label="Sort">
+      <option value="featured">Sort: Featured</option>
+      <option value="new">Newest first</option>
+      <option value="low">Price: low to high</option>
+      <option value="high">Price: high to low</option>
+    </select>
+    <label class="chip chk"><input type="checkbox" id="stockOnly"> In stock only</label>
+    <button class="chip" id="wishBtn">♡ Saved <span id="wishN"></span></button>
+  </div>
+  <div class="grid" id="grid"></div>
+  <div class="empty" id="empty" hidden>No t-shirts found.</div>
+</main>
+
+<footer>
+  <div class="f">LN WARDROBE</div>
+  <div>EST 2026 · Orders via WhatsApp</div>
+  <div class="flinks" id="flinks"></div>
+</footer>
+<a class="fab" id="fab" href="#" target="_blank" rel="noopener">💬 Chat on WhatsApp</a>
+
+<div class="modal" id="modal" role="dialog" aria-modal="true"><div class="sheet" id="sheet"></div></div>
+<div class="modal" id="guide" role="dialog" aria-modal="true"><div class="sheet guide" id="guideBox"></div></div>
+
+<script src="/common.js"></script>
+<script src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "username": "admin",
+  "password": {
+    "salt": "eb2e5369ba30286c1fecf04ff3f41433",
+    "hash": "7565c3118220a627dca10375e7fc4888db12faa9d95b5a654975e3747f2aef336434db6aab7db3f80690cf4a94a2e19693acd2987b1233196726b64b8690fadc"
+  },
+  "whatsapp": "916383021040",
+  "announcement": "New collection just dropped – order on WhatsApp!",
+  "instagram": "ln_wardrobe",
+  "orderTemplate": "Hi LN Wardrobe! I would like to order:\n\n👕 *{product}*\n🎨 Colour: {colour}\n📏 Size: {size}\n🔢 Quantity: {qty}\n💰 Price: {price} each\n\nLink: {link}"
+}

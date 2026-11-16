@@ -1,0 +1,48 @@
+[
+  {
+    "id": "pmwi69erc",
+    "name": "testing",
+    "price": 600,
+    "salePrice": 550,
+    "tag": "Best Seller",
+    "featured": false,
+    "category": "T-Shirts",
+    "description": "testing",
+    "images": [],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#1A1A1D",
+        "sizes": {
+          "XS": true,
+          "S": true,
+          "M": true,
+          "L": true,
+          "XL": true,
+          "XXL": true,
+          "3XL": false
+        },
+        "images": [
+          "/uploads/bd2ce9a01243e340.jpg"
+        ]
+      },
+      {
+        "name": "Green",
+        "hex": "#2E8B57",
+        "sizes": {
+          "XS": true,
+          "S": true,
+          "M": true,
+          "L": true,
+          "XL": true,
+          "XXL": true,
+          "3XL": true
+        },
+        "images": [
+          "/uploads/a6a0b5bcc9102afb.jpg"
+        ]
+      }
+    ],
+    "hidden": false
+  }
+]
