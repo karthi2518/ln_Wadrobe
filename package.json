@@ -1,0 +1,22 @@
+{
+  "name": "ln-wardrobe",
+  "version": "1.0.0",
+  "description": "Catalogue website (no cart / checkout / payment / order storage). Customers pick colour + size and the \"Order on WhatsApp\" button opens WhatsApp with the details pre-filled.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karthi2518/ln_Wadrobe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/karthi2518/ln_Wadrobe/issues"
+  },
+  "homepage": "https://github.com/karthi2518/ln_Wadrobe#readme"
+}
